@@ -35,6 +35,7 @@ button {
     border-style: solid;
     background-color:#001620;
     color: azure;
+    width: 160px;
 }
 .buttonSearch {
     border-radius: 0.3rem;
