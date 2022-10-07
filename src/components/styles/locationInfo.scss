@@ -13,11 +13,6 @@
     border-width: 2px;
 }
 
-.detailsLocation {
-    display: flex;
-    gap: 3rem;
-}
-
 .nameLocation {
     text-align: center;
     color: bisque;
@@ -32,6 +27,11 @@
         width: 50%;
         font-size: 18px;
     }
+
+    .detailsLocation {
+        display: flex;
+        gap: 3rem;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 959px) {
@@ -39,11 +39,21 @@
         width: 70%;
         font-size: 16px;
     }
+
+    .detailsLocation {
+        display: flex;
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width: 640px) {
     .informationWorld {
         width: 96%;
         font-size: 14px;
+    }
+
+    .detailsLocation {
+        display: flex;
+        gap: 1rem;
     }
 }
