@@ -51,6 +51,10 @@ button {
         margin-right: auto;
         background-position-x: center;
     }
+
+    .footer {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 959px) {
@@ -60,6 +64,10 @@ button {
         margin-left: auto;
         margin-right: auto;
         background-position-x: center;
+    }
+
+    .footer {
+        font-size: 14px;
     }
 }
 
@@ -155,7 +163,6 @@ button {
     background-color: #001620;
     height: 50px;
     font-weight: 100;
-    font-size: 18px;
     position: relative;
     display:flex;
     align-items: center;
