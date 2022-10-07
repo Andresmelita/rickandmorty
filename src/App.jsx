@@ -18,6 +18,14 @@ function App() {
   //Para indicar si hay error o no
   const [hasError, setHasError] = useState(false)
 
+  const [backImage, setBackImage] = useState()
+
+
+  useEffect(()=>{
+    const URL = `url(/images/back.png)`
+    setBackImage(URL)
+  },)
+
   //*Apartado para paginación*//
   const [page, setPage] = useState(1)
   const [eachPage, setEachPage] = useState(4)
@@ -62,8 +70,12 @@ function App() {
     }
   }
 
+  const backGroundObject = {
+    backgroundImage: backImage
+  }
+
   return (
-    <div className="App">
+    <div style={backGroundObject} className="App">
       <img className='header' src='./images/topImage.png'/>
       <form onSubmit={handleSubmit}>
         <input 
