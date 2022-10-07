@@ -17,7 +17,7 @@ function App() {
   const [suggestedList, setSuggestedList] = useState()
   //Para indicar si hay error o no
   const [hasError, setHasError] = useState(false)
-
+  //Imagen de fondo
   const [backImage, setBackImage] = useState()
 
 
@@ -78,14 +78,16 @@ function App() {
     <div style={backGroundObject} className="App">
       <img className='header' src='./images/topImage.png'/>
       <form onSubmit={handleSubmit}>
-        <input 
-          className='searchText'
-          id='idLocation' 
-          placeholder='Enter ID (1-126):' 
-          type='text'
-          onChange={handleChange}
-        />
-        <button className='buttonSearch'>🔍</button>
+        <section>
+          <input 
+            className='searchText'
+            id='idLocation' 
+            placeholder='Enter ID (1-126):' 
+            type='text'
+            onChange={handleChange}
+          />
+          <button className='buttonSearch'>🔍</button>
+        </section>
         <section className='filterList'>
           <FilterList
             suggestedList={suggestedList}
