@@ -51,7 +51,7 @@ button {
         height: 365px;
         margin-left: auto;
         margin-right: auto;
-        background-position-x: center;
+        background-position: center center;
     }
 
     .filterList {
@@ -74,7 +74,7 @@ button {
         height: 300px;
         margin-left: auto;
         margin-right: auto;
-        background-position-x: center;
+        background-position: center center;
         background-attachment: fixed;
     }
 
