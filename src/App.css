@@ -53,7 +53,7 @@ button {
 }
 
 .App {
-    background-image: url('./public/images/Back.png');
+    background-image: url('./public/images/back.png');
     background-size: cover;
     background-position-x: center;
     width: 100%;

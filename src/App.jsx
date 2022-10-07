@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="App">
-      <img className='header' src='./images/TopImage.png'/>
+      <img className='header' src='./images/topImage.png'/>
       <form onSubmit={handleSubmit}>
         <input 
           className='searchText'
