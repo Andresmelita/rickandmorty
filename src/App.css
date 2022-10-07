@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    font-weight: 100;
+    font-size: 18px;
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:left;
+}
+
+button {
+    cursor: pointer;
+}
+
+.filterList {
+    background-color: rgb(8, 85, 136);
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    color: #ffffff;
+}
+
+.searchText {
+    border-radius: 0.3rem;
+    border-style: solid;
+    background-color:#001620;
+    color: azure;
+}
+.buttonSearch {
+    border-radius: 0.3rem;
+    border-width: 0.12rem;
+    border-style: solid;
+    background-color: rgb(206, 255, 115);
+    border-color:rgb(175, 157, 136);
+}
+
+
+.header {
+    width: 1500px;
+    height: 372px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position-x: center;
+}
+
+.App {
+    background-image: url('./images/Back.jpg');
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 2rem;
+    width: 72%;
+    flex-wrap: wrap;
+    /* background-color: rgba(0, 0, 0, 0.644); */
+}
+
+.pagination {
+    margin: 20px 0;
+    /* width: 50%;
+    gap: 1rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center; */
+}
+.pagination ul {
+    list-style: none;
+    text-align: center;
+    /* color: aliceblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .2s linear; */
+} 
+
+.pagination ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pagination ul li a {
+    display: block;
+    padding: 10px 20px;
+    color:  wheat;
+    background-color:  var(--background-cards);
+    border-radius: 1rem ;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+.pagination ul li a:hover {
+    background-color: bisque;
+    color: var(--background-cards);
+}
+
+.pagination ul li .active {
+    background-color:antiquewhite;
+    color: var(--background-cards);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #001620;
+    height: 50px;
+    font-weight: 100;
+    font-size: 18px;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 12px;
+}    
+
+html::-webkit-scrollbar-thumb{
+    background-color:rgb(5, 66, 94);
+    border-radius: 1px;
+}    
+
+html::-webkit-scrollbar-track{
+    background-color:#00141d;
+}    

@@ -1,0 +1,30 @@
+.informationWorld {
+    background-color: #062226;
+    border-style: solid;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 50%;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    display: grid;
+    border-color:bisque;
+    border-width: 2px;
+}
+
+.detailsLocation {
+    display: flex;
+    gap: 3rem;
+}
+
+.nameLocation {
+    text-align: center;
+    color: bisque;
+}
+
+.infLoc {
+    color: bisque;
+}

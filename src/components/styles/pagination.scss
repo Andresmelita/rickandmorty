@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    color: bisque;
+    gap: 1rem;
+    font-size: 18px;
+    margin: 20px 20px;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        background-color: #052c42;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        color: bisque;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 1rem;
+        display: flex;
+        cursor: pointer;
+    }
+
+    button[disabled] {
+        background-color:antiquewhite;
+        color: #062226;
+        cursor: no-drop;
+    }
+
+    input {
+        width: 40px;
+        font-size: 18px;
+        text-align: center;
+        height: 28px;
+        border: 1px solid bisque;
+        border-radius: 1rem;
+    }
+}
