@@ -43,13 +43,37 @@ button {
     border-color:rgb(175, 157, 136);
 }
 
+@media screen and (min-width: 960px) {
+    .header {
+        width: 1400px;
+        height: 365px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aqua;
+        background-position-x: center;
+    }
+}
 
-.header {
-    width: 1500px;
-    height: 372px;
-    margin-left: auto;
-    margin-right: auto;
-    background-position-x: center;
+@media (min-width: 641px) and (max-width: 959px) {
+    .header {
+        width: 1024px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(143, 2, 96);
+        background-position-x: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header {
+        width: 320px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: azure;
+        background-position-x: center;
+    }
 }
 
 .App {
