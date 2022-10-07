@@ -26,6 +26,7 @@ button {
     border-width: 0.1rem;
     border-style: solid;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .searchText {

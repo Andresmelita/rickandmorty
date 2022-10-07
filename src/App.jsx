@@ -73,7 +73,7 @@ function App() {
           type='text'
           onChange={handleChange}
         />
-        <button onClick={handleChange} className='buttonSearch'>🔍</button>
+        <button className='buttonSearch'>🔍</button>
         <section className='filterList'>
           <FilterList
             suggestedList={suggestedList}
