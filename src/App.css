@@ -61,6 +61,11 @@ button {
     .footer {
         font-size: 18px;
     }
+
+    .App {
+        width: 100%;
+        min-height: 100%;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 959px) {
@@ -78,6 +83,11 @@ button {
 
     .footer {
         font-size: 14px;
+    }
+
+    .App {
+        width: 100vw;
+        min-height: 100%;
     }
 }
 
@@ -98,14 +108,17 @@ button {
     .footer {
         font-size: 12px;
     }
+
+    .App {
+        width: 100vw;
+        min-height: 100%;
+    }
 }
 
 .App {
     /* background-image: url('./public/images/back.png'); */
     background-size: cover;
     background-position-x: center;
-    width: 100%;
-    min-height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin: auto;
