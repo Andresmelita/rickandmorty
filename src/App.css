@@ -38,7 +38,7 @@ button {
     border-radius: 0.3rem;
     border-width: 0.12rem;
     border-style: solid;
-    background-color: white;
+    background-color:rgb(191, 255, 131);
     border-color:rgb(175, 157, 136);
 }
 
@@ -52,7 +52,7 @@ button {
 }
 
 .App {
-    /* background-image: url('./images/Back.png'); */
+    background-image: url('./public/images/Back.png');
     background-size: cover;
     background-position-x: center;
     width: 100%;

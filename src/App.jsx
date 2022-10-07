@@ -63,7 +63,7 @@ function App() {
   }
 
   return (
-    <div className="App" src='./images/Back.png'>
+    <div className="App">
       <img className='header' src='./images/TopImage.png'/>
       <form onSubmit={handleSubmit}>
         <input 
