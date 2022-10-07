@@ -5,8 +5,6 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     border-radius: 1rem;
-    width: 50%;
-    font-size: 18px;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
@@ -27,4 +25,25 @@
 
 .infLoc {
     color: bisque;
+}
+
+@media screen and (min-width: 960px) {
+    .informationWorld {
+        width: 50%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 959px) {
+    .informationWorld {
+        width: 70%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .informationWorld {
+        width: 96%;
+        font-size: 14px;
+    }
 }

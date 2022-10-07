@@ -49,7 +49,6 @@ button {
         height: 365px;
         margin-left: auto;
         margin-right: auto;
-        background-color: aqua;
         background-position-x: center;
     }
 }
@@ -60,7 +59,6 @@ button {
         height: 300px;
         margin-left: auto;
         margin-right: auto;
-        background-color: rgb(143, 2, 96);
         background-position-x: center;
     }
 }
@@ -71,8 +69,11 @@ button {
         height: 80px;
         margin-left: auto;
         margin-right: auto;
-        background-color: azure;
         background-position-x: center;
+    }
+
+    .footer {
+        font-size: 12px;
     }
 }
 
