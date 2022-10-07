@@ -22,7 +22,7 @@ function App() {
 
 
   useEffect(()=>{
-    const URL = `url(/images/back.png)`
+    const URL = `url(/images/backGround.png)`
     setBackImage(URL)
   },)
 
